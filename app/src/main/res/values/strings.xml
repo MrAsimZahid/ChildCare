@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ChildCare</string>
+    <string name="powered">Powered by</string>
 </resources>
