@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ChildCare</string>
     <string name="powered">Powered by</string>
+    <string name="bioMetricHeading">Choose how to unlock App</string>
+    <string name="bioMetricSubHeading">This application must be  protected at all times</string>
+    <string name="bioMetricFingerPrint">Use Biometric</string>
+    <string name="bioMetricPassCode">Use Passcode</string>
+    <string name="or">or</string>
+    <string name="authentication_required">Authentication Required</string>
+    <string name="touch_here">Touch Here</string>
+
 </resources>
