@@ -8,5 +8,9 @@
     <string name="or">or</string>
     <string name="authentication_required">Authentication Required</string>
     <string name="touch_here">Touch Here</string>
+    <string name="welcome">Welcome</string>
+    <string name="start_fresh">Start Fresh</string>
+    <string name="sign_into_your_account">Sign into your account</string>
+    <string name="restore_from_a_backup">Restore from a BackUp</string>
 
 </resources>
