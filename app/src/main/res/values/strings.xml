@@ -13,4 +13,7 @@
     <string name="sign_into_your_account">Sign into your account</string>
     <string name="restore_from_a_backup">Restore from a BackUp</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
