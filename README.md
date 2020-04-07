@@ -6,11 +6,11 @@ This project is part of Google Summer of Code 2020. It is in Proof of Concept ph
 
 ## Setup
 
-For setup and usage guide access (SETUP.md)[https://github.com/MrAsimZahid/ChildCare/blob/master/SETUP.md]
+For setup and usage guide access [SETUP.md](https://github.com/MrAsimZahid/ChildCare/blob/master/SETUP.md)
 
 ## User Interface
 
-To get a Peek of app access User Interface (here)[https://github.com/MrAsimZahid/ChildCare/tree/master/user-interface].
+To get a Peek of app access User Interface [here](https://github.com/MrAsimZahid/ChildCare/tree/master/user-interface).
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -21,9 +21,9 @@ Please make sure to update the tests as appropriate.
 
 ## Credits
 
-(LibreHealth)[https://github.com/LibreHealthIO]
+[LibreHealth](https://github.com/LibreHealthIO)
 
-(Project Details)[https://forums.librehealth.io/t/project-android-application-to-show-birth-registration-newborn-health-data/]
+[Project Details](https://forums.librehealth.io/t/project-android-application-to-show-birth-registration-newborn-health-data/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
