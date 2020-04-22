@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.Fragments"></activity>
+        <activity android:name=".ui.fragments.ConnectionUrl"></activity>
+        <activity android:name=".ui.fragments.NearbyWifi" />
+        <activity android:name=".ui.fragments.ConnectionsQrCode" />
+        <activity android:name=".ui.Fragments" />
         <activity android:name=".ui.Tutorial" />
         <activity android:name=".ui.FreshSignIn" />
         <activity android:name=".ui.FingerPrint" />

@@ -23,7 +23,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="320dp"
         android:foregroundGravity="center"
         android:paddingTop="40dp"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.166"
-        app:srcCompat="@drawable/logo_child_care" />
+        app:srcCompat="@drawable/app_logo_png" />
 
     <TextView
         android:id="@+id/textView2"
