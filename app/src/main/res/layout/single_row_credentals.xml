@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content" android:padding="20dp">
     
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/row_img"
         android:src="@drawable/ic_license_green"
+        android:layout_marginLeft="40dp"
         />
 
-    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credHeading"
+        android:text="@string/birth_certificate"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/row_img"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credSubHeading"
+        android:text="@string/organization"
+        android:textStyle="italic"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/row_img"
+        android:layout_below="@id/credHeading"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/viewBtn"
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/row_img"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#348CBA51"
+        android:textColor="#8CBA51"
+
+        android:text="@string/view" />
+
+    <Button
+        android:layout_width="114dp"
+        android:layout_height="40dp"
+        android:id="@+id/calenderBtn"
+        android:layout_toRightOf="@+id/viewBtn"
+        android:layout_below="@+id/row_img"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:text="24.03.2020"
+        android:background="#348CBA51"
+        android:textColor="#8CBA51"
+        />
 
 </RelativeLayout>
