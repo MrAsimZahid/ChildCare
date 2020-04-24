@@ -1,29 +1,29 @@
 # Child Care
 
-ChildCare is an android for Mothers and Guardians of newborn babies to view and hold credentials of their babies.
+ChildCare is an android application for the Mothers & Guardians of newborn babies where they can view and hold credentials of their babies.
 
-This project is part of Google Summer of Code 2020. It is in Proof of Concept phase.
+This project is part of Google Summer of Code 2020. Currently, it is in Proof of Concept phase.
 
 ## Setup
 
-For setup and usage guide access [SETUP.md](https://github.com/MrAsimZahid/ChildCare/blob/master/SETUP.md)
+If you are looking for setting up the developer environment for Child Care, check out the [SETUP.md](https://github.com/MrAsimZahid/ChildCare/blob/master/SETUP.md) guide I have written.
 
 ## User Interface
 
-To get a Peek of app access User Interface [here](https://github.com/MrAsimZahid/ChildCare/tree/master/user-interface).
+To get a peek of app access User Interface, [click here](https://github.com/MrAsimZahid/ChildCare/tree/master/user-interface).
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Happy contributing.
+Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change or improve. Also, please make sure to update the tests as appropriate.
 
-Please make sure to update the tests as appropriate.
+Happy contributing!
 
-## Credits
+## Props
 
-[LibreHealth](https://github.com/LibreHealthIO)
+- [LibreHealth](https://github.com/LibreHealthIO)
 
-[Project Details](https://forums.librehealth.io/t/project-android-application-to-show-birth-registration-newborn-health-data/)
+- [Project Details](https://forums.librehealth.io/t/project-android-application-to-show-birth-registration-newborn-health-data/)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+- [MIT](https://choosealicense.com/licenses/mit/)
