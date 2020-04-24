@@ -70,11 +70,11 @@
 
         <ImageView
             android:id="@+id/next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_navigate_next_green"
-            android:layout_alignParentRight="true" />
+            app:srcCompat="@drawable/ic_navigate_next_green" />
     </RelativeLayout>
 
     <RelativeLayout

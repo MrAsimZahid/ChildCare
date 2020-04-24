@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,8 +8,281 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/textView13"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
 
-</FrameLayout>
+
+    <ImageView
+        android:id="@+id/libreHealth"
+        android:layout_width="365dp"
+        android:layout_height="83dp"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logo_librehealth_orange"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/libreHealth"
+        android:layout_marginLeft="25dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appDes"
+        android:text="@string/app_description"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:layout_below="@+id/appName"
+        />
+
+    <!-- Backup -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR1"
+        android:orientation="horizontal"
+        android:layout_below="@+id/appDes"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/backupIcon"
+            app:srcCompat="@drawable/ic_backup_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backupBtn"
+            android:text="Create a BackUp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/next1"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_navigate_next_green"
+            android:layout_marginLeft="120dp"/>
+    </LinearLayout>
+
+    <!-- profile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR2"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR1"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/profileicon"
+            app:srcCompat="@drawable/ic_person_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileBtn"
+            android:text="Profile"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_navigate_next_green"
+            android:layout_marginLeft="120dp"/>
+    </LinearLayout>
+
+    <!-- Notification -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR2"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/bellicon"
+            app:srcCompat="@drawable/ic_notifications_active_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/notificationBtn"
+            android:text="Notifications"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/next3"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_navigate_next_green"
+            android:layout_marginLeft="120dp"/>
+    </LinearLayout>
+
+    <!-- Rathe the app -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR3"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/rateApp"
+            app:srcCompat="@drawable/ic_star_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/starBtn"
+            android:text="Rate the app"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <!-- feedback -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR5"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR4"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/feedbackicon"
+            app:srcCompat="@drawable/ic_feedback_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/feedbackBtn"
+            android:text="Send Feedback"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+    <!-- about -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR6"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR5"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/abouticon"
+            app:srcCompat="@drawable/ic_about_us_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutBtn"
+            android:text="About"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/next6"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_navigate_next_green"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout>
+
+    <!-- Help -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LR7"
+        android:orientation="horizontal"
+        android:layout_below="@+id/LR6"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/helpicon"
+            app:srcCompat="@drawable/ic_help_green"
+            android:layout_marginTop="3dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/helpBtn"
+            android:text="Help"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

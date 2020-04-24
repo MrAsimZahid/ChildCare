@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChildCare</string>
+    <string name="app_name">Child Care</string>
     <string name="powered">Powered by</string>
     <string name="bioMetricHeading">Choose how to unlock App</string>
     <string name="bioMetricSubHeading">This application must be  protected at all times</string>
@@ -15,5 +15,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</string>
 
 </resources>

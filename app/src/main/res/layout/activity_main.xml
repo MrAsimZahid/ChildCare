@@ -54,6 +54,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/logo_librehealth" />
+        app:srcCompat="@drawable/logo_librehealth_gray" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
