@@ -1,5 +1,12 @@
 # Child Care
 
+
+<div align="center">
+<a align="center" href="https://VSCode.pro/?utm_source=sop"><img align="center" src="https://github.com/MrAsimZahid/ChildCare/blob/master/app/src/main/res/drawable/app_logo_png.png" height="250" width="250"/></a>
+</div>
+</br>
+
+
 ChildCare is an android application for the Mothers & Guardians of newborn babies where they can view and hold credentials of their babies.
 
 This project is part of Google Summer of Code 2020. Currently, it is in Proof of Concept phase.
